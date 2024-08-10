@@ -7,8 +7,7 @@ while que=="s":
     print( )
     print("1. Cuadrado ")
     print("2. Triangulo")
-    print("3. Rectangulo")
-    print("4. Circulo")
+    print("3. Circulo")
     selec=int(input("-> "))
     if selec==1:
         #Area de un cuadrado = Lado x Lado
@@ -22,12 +21,6 @@ while que=="s":
         rep2=(b*h)/2
         print("El area del triangulo con las medidas introducidas es de: ",rep2)
     if selec==3:
-        #Area de un rectangulo = Base x Altura
-        b=int(input("Introduzca la base del rectangulo -> "))
-        h=(int(input("Introduzca la altura del rectangulo ->")))
-        rep3=b*h
-        print("El area del rectangulo es de: ",rep3)
-    if selec==4:
         #Area de un circulo = pi x Radio^2
         r=int(input("Introduzca el radio del circulo -> "))
         rep4=3.14*(r^2)
