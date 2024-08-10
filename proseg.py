@@ -1,9 +1,14 @@
-#Calcular el area de al menos 3 figuras geometricas
-#Menu para elegir la figura
+import time
+#Time para que se vea mas chulo
 que="s"
+print( )
+time.sleep(1)
+print("Bienvenido al menu")
+time.sleep(1)
 while que=="s":
-    print("Bienvenido al menú seleccionar una figura")
+    
     print("Seleccione cualquiera de estas 3 figuras")
+    time.sleep(1)
     print( )
     print("1. Cuadrado ")
     print("2. Triangulo")
@@ -25,6 +30,8 @@ while que=="s":
         r=int(input("Introduzca el radio del circulo -> "))
         rep4=3.14*(r^2)
         print("El area del circulo es de: ",rep4)
+    print( )
+    time.sleep(2)
     print("¿Quiere seguir usando el programa?")
     print(" S / N ")
     que=input("-> ")
